@@ -10,6 +10,7 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
+                    <title>Dominoes</title>
                     <meta name="robots" content="noindex, nofollow" />
                     <meta name="title" content="Dominoes game" />
                     <meta name="description" content="Dominoes game" />
