@@ -10,13 +10,12 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <title>Dominoes</title>
                     <meta name="robots" content="noindex, nofollow" />
                     <meta name="title" content="Dominoes game" />
                     <meta name="description" content="Dominoes game" />
                     <meta name="keywords" content="dominoes,game,online,domino,best game" />
                     <meta property="og:image" content="/public/img/phone-domino.png" />
-                    <meta name=" theme-color" content="#4aac00" />
+                    <meta name="theme-color" content="#4aac00" />
                     <meta name="apple-itunes-app" content='app-id=1434957889, affiliate-data=myAffiliateData, app-argument=dominoes.com'/>
                     <meta name="google-play-app" content="app-id=com.facebook.katana" />
                     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />

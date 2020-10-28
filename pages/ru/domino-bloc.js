@@ -1,3 +1,4 @@
+import ToUp from "../../components/ToUp";
 import FooterRu from "../../components/FooterRu";
 import HeaderRu from "../../components/HeaderRu";
 import React from 'react'
@@ -31,6 +32,7 @@ const DominoBlock = () => {
           </div>
         </article>
       </div>
+      <ToUp />
       <FooterRu />
     </>
   )

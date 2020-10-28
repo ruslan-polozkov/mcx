@@ -1,3 +1,4 @@
+import ToUp from "../components/ToUp";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import React from 'react'
@@ -55,6 +56,7 @@ const AllFiveDominoes = () => {
           </div>
         </article>
       </div>
+      <ToUp />
   <Footer />
   </>
   )

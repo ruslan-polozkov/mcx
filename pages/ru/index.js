@@ -1,3 +1,4 @@
+import ToUp from "../../components/ToUp";
 import FooterRu from "../../components/FooterRu";
 import SliderAdvantagesRu from "../../components/SliderAdvantagesRu";
 import SliderMyRu from "../../components/SliderMyRu";
@@ -188,6 +189,7 @@ const IndexPage = () => {
                   </div>
               </article>
           </div>
+          <ToUp />
           <FooterRu />
       </>
     )

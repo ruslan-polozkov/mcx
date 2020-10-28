@@ -1,3 +1,4 @@
+import ToUp from "../components/ToUp";
 import Footer from "../components/Footer";
 import SliderAdvantages from "../components/SliderAdvantages";
 import SliderMy from "../components/SliderMy";
@@ -184,6 +185,7 @@ const IndexPage = () => {
               </div>
           </article>
       </div>
+          <ToUp />
         <Footer />
       </>
     )
