@@ -153,45 +153,30 @@ const IndexPage = () => {
                                     src="/img/advantage-1.jpg"
                                     alt="100% Free to Play"
                                   />
-                                  <span className="item_txt">
-                                        100% Free to Play
-                                      </span>
                               </li>
                               <li className="list_item" data-slider-item="02">
                                   <img
                                     src="/img/advantage-2.jpg"
                                     alt="3 versions of Dominoes: Fives, Block or Classic"
                                   />
-                                  <span className="item_txt">
-                                        3 versions of Dominoes: Fives, Block or Classic
-                                      </span>
                               </li>
                               <li className="list_item" data-slider-item="03">
                                   <img
                                     src="/img/advantage-3.jpg"
                                     alt="Play Online or Offline (no internet)"
                                   />
-                                  <span className="item_txt">
-                                        Play Online or Offline (no internet)
-                                      </span>
                               </li>
                               <li className="list_item" data-slider-item="04">
                                   <img
                                     src="/img/advantage-4.jpg"
                                     alt="Customize the design of boards and domino tiles!"
                                   />
-                                  <span className="item_txt">
-                                        Customize the design of boards and domino tiles!
-                                      </span>
                               </li>
                               <li className="list_item" data-slider-item="05">
                                   <img
                                     src="/img/advantage-1.jpg"
                                     alt="The ability to play with friends or random opponents!"
                                   />
-                                  <span className="item_txt">
-                                        The ability to play with friends or random opponents!
-                                      </span>
                               </li>
                           </ul>
                       </div>

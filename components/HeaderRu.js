@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import Logo from "./Logo"
+import LogoRu from "./LogoRu"
 import NavigationRu from "./NavigationRu"
 import Burger from "./Burger"
 
@@ -47,7 +47,7 @@ const Header = () => {
     <header className="header">
       <div className="global-container">
         <div className="header_inner">
-          <Logo />
+          <LogoRu />
           <NavigationRu />
           <Burger onClick={setOpenedHeaderState} />
         </div>

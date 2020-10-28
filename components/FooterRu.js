@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./Logo";
+import LogoRu from "./LogoRu";
 import Link from "next/link";
 const Footer = () => {
   const bgImage = {
@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="inner_column logotype">
             <div className="column_inner">
               <div className="inner_logo">
-                <Logo />
+                <LogoRu />
               </div>
               <div className="inner_desc">Вы готовы? Скачайте приложение, чтобы начать играть прямо сейчас!</div>
             </div>

@@ -157,45 +157,30 @@ const IndexPage = () => {
                                         src="/img/advantage-1.jpg"
                                         alt="100 % Бесплатная Игра"
                                       />
-                                      <span className="item_txt">
-                                        100 % Бесплатная Игра
-                                      </span>
                                   </li>
                                   <li className="list_item" data-slider-item="02">
                                       <img
                                         src="/img/advantage-2.jpg"
                                         alt="3 версии Домино: Пятерки, Блок или Классическое"
                                       />
-                                      <span className="item_txt">
-                                        3 версии Домино: Пятерки, Блок или Классическое
-                                      </span>
                                   </li>
                                   <li className="list_item" data-slider-item="03">
                                       <img
                                         src="/img/advantage-3.jpg"
                                         alt="Играть Онлайн или Офлайн (без интернета)"
                                       />
-                                      <span className="item_txt">
-                                        Играть Онлайн или Офлайн (без интернета)
-                                      </span>
                                   </li>
                                   <li className="list_item" data-slider-item="04">
                                       <img
                                         src="/img/advantage-4.jpg"
                                         alt="Настройка дизайна досок и плиток домино!"
                                       />
-                                      <span className="item_txt">
-                                        Настройка дизайна досок и плиток домино!
-                                      </span>
                                   </li>
                                   <li className="list_item" data-slider-item="05">
                                       <img
                                         src="/img/advantage-1.jpg"
                                         alt="Возможность играть с друзьями или случайными соперниками!"
                                       />
-                                      <span className="item_txt">
-                                        Возможность играть с друзьями или случайными соперниками!
-                                      </span>
                                   </li>
                               </ul>
                           </div>

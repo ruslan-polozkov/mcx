@@ -1,9 +1,9 @@
 import React from "react"
 
-const Logo = () => {
+const LogoRu = () => {
   return (
     <div className="logo">
-      <a href="/">
+      <a href="/ru">
         <img src="/img/logo.png" alt="Dominoes" style={{marginRight: "1rem"}}/>
         <span>Dominoes</span>
       </a>
@@ -11,4 +11,4 @@ const Logo = () => {
   )
 }
 
-export default Logo
+export default LogoRu
