@@ -61,7 +61,7 @@ const SliderAdvantages = () => {
             src="/img/advantage-1.jpg"
           />
           <span className="item_txt">
-            100% Free to Play
+            100 % Бесплатная Игра
           </span>
         </li>
         <li
@@ -74,7 +74,7 @@ const SliderAdvantages = () => {
             src="/img/advantage-2.jpg"
           />
           <span className="item_txt">
-            3 versions of Dominoes: Fives, Block or Classic
+            3 версии Домино: Пятерки, Блок или Классическое
           </span>
         </li>
         <li
@@ -87,7 +87,7 @@ const SliderAdvantages = () => {
             src="/img/advantage-3.jpg"
           />
           <span className="item_txt">
-            Play Online or Offline (no internet)
+            Играть Онлайн или Офлайн (без интернета)
           </span>
         </li>
         <li
@@ -100,7 +100,7 @@ const SliderAdvantages = () => {
             src="/img/advantage-4.jpg"
           />
           <span className="item_txt">
-            Customize the design of boards and domino tiles!
+            Настройка дизайна досок и плиток домино!
           </span>
         </li>
         <li
@@ -113,7 +113,7 @@ const SliderAdvantages = () => {
             src="/img/advantage-1.jpg"
           />
           <span className="item_txt">
-            The ability to play with friends or random opponents!
+            Возможность играть с друзьями или случайными соперниками!
           </span>
         </li>
       </Slider>

@@ -10,7 +10,7 @@ const LanguageMenu = () => {
     (e) => {
       // const regex = new RegExp(`^/(${locales.join('|')})`)
       // router.push(router.pathname, router.asPath.replace(regex, `/${e.target.closest(".menu_item").dataset.value}`))
-      router.push("/ru")
+      router.push("/")
       if (router.pathname === "/ru/istoriya-domino") {
         router.push("/history-of-dominoes")
       }
@@ -63,9 +63,9 @@ const LanguageMenu = () => {
         <div
           className="active_item active"
         >
-          <img src="/img/us.png" alt="English" />
+          <img src="/img/ru.png" alt="Русский" />
           <span>
-            English
+            Русский
             <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
               <path d="M16.59 8.59003L12 13.17L7.41 8.59003L6 10L12 16L18 10L16.59 8.59003Z" fill="evenodd"></path>
             </svg>
@@ -78,8 +78,8 @@ const LanguageMenu = () => {
           // data-value={localeCurrent === "en" ? "ru" : "en"}
           onClick={e => handleLocaleChange(e)}
         >
-          <img src="/img/ru.png" alt="Русский" />
-          <span>Русский</span>
+          <img src="/img/us.png" alt="English" />
+          <span>English</span>
         </div>
       </div>
     </div>

@@ -42,68 +42,56 @@ const SliderMy = () => {
         <div className="slider_item">
           <div className="item_inner">
             <div className="inner_title">
-              {/*{t("slider.slider_item_title_01")}*/}
+              Dyenesh Blocks
             </div>
-            {/*<div className="inner_text">{t("slider.slider_item_text_01")}</div>*/}
+            <div className="inner_text">The educational game Gyenesh Blocks is a great way to keep your child busy, captivating with really interesting and developing action. Computer games with Dienes blocks are interesting in that the kit does not include a single complete ...</div>
             <div className="inner_link">
-              {/*{locale === "ru" ? <Link*/}
-              {/*  href="/[lang]/domino-bloc" as={`/${locale}/domino-bloc`}>*/}
-              {/*  <a target="_blank">{t("slider.slider_item_more")}</a>*/}
-              {/*</Link> : <Link*/}
-              {/*  href="/[lang]/blocks-dominoes" as={`/${locale}/blocks-dominoes`}>*/}
-              {/*  <a target="_blank">{t("slider.slider_item_more")}</a>*/}
-              {/*</Link>}*/}
+              <Link
+                href="/blocks-dominoes" as={`/blocks-dominoes`}>
+                <a target="_blank">Read more</a>
+              </Link>
             </div>
           </div>
         </div>
         <div className="slider_item dark">
           <div className="item_inner">
             <div className="inner_title">
-              {/*{t("slider.slider_item_title_02")}*/}
+              Classic dominoes
             </div>
-            {/*<div className="inner_text">{t("slider.slider_item_text_02")}</div>*/}
+            <div className="inner_text">The rules of playing dominoes with a computer are no different from playing live. Depending on the number of players, you are dealt seven dice each if the game starts one on one, and five dice if the game involves three or four players. The remaining stones remain in ...</div>
             <div className="inner_link">
-              {/*{locale === "ru" ? <Link*/}
-              {/*  href="/[lang]/domino-klassicheskoe" as={`/${locale}/domino-klassicheskoe`}>*/}
-              {/*  <a target="_blank">{t("slider.slider_item_more")}</a>*/}
-              {/*</Link> : <Link*/}
-              {/*  href="/[lang]/dominoes-rules" as={`/${locale}/dominoes-rules`}>*/}
-              {/*  <a target="_blank">{t("slider.slider_item_more")}</a>*/}
-              {/*</Link>}*/}
+              <Link
+                href="/dominoes-rules" as={`/dominoes-rules`}>
+                <a target="_blank">Read more</a>
+              </Link>
             </div>
           </div>
         </div>
         <div className="slider_item">
           <div className="item_inner">
             <div className="inner_title">
-              {/*{t("slider.slider_item_title_03")}*/}
+              Dominoes of Five
             </div>
-            {/*<div className="inner_text">{t("slider.slider_item_text_03")}</div>*/}
+            <div className="inner_text">Domino 5 is one of the most exciting types of board games. Its rules are practically no different from the classic version, with the exception of one "small" nuance. The player's task is not just to throw off all his stones, attaching them to the common ...</div>
             <div className="inner_link">
-              {/*{locale === "ru" ? <Link*/}
-              {/*  href="/[lang]/domino-5" as={`/${locale}/domino-5`}>*/}
-              {/*  <a target="_blank">{t("slider.slider_item_more")}</a>*/}
-              {/*</Link> : <Link*/}
-              {/*  href="/[lang]/all-fives-dominoes" as={`/${locale}/all-fives-dominoes`}>*/}
-              {/*  <a target="_blank">{t("slider.slider_item_more")}</a>*/}
-              {/*</Link>}*/}
+              <Link
+                href="/all-fives-dominoes" as={`/all-fives-dominoes`}>
+                <a target="_blank">Read more</a>
+              </Link>
             </div>
           </div>
         </div>
         <div className="slider_item dark">
           <div className="item_inner">
             <div className="inner_title">
-              {/*{t("slider.slider_item_title_04")}*/}
+              Online game mode
             </div>
-            {/*<div className="inner_text">{t("slider.slider_item_text_04")}</div>*/}
+            <div className="inner_text">Where to play dominoes for free when there is no opportunity to get together at home with friends? The answer to this question seems difficult only at first glance, since in our application you can play dominoes without registration, additional SMS ...</div>
             <div className="inner_link">
-              {/*{locale === "ru" ? <Link*/}
-              {/*  href="/[lang]/domino-online" as={`/${locale}/domino-online`}>*/}
-              {/*  <a target="_blank">{t("slider.slider_item_more")}</a>*/}
-              {/*</Link> : <Link*/}
-              {/*  href="/[lang]/dominoes-online" as={`/${locale}/dominoes-online`}>*/}
-              {/*  <a target="_blank">{t("slider.slider_item_more")}</a>*/}
-              {/*</Link>}*/}
+              <Link
+                href="/dominoes-online" as={`/dominoes-online`}>
+                <a target="_blank">Read more</a>
+              </Link>
             </div>
           </div>
         </div>

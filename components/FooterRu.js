@@ -18,7 +18,7 @@ const Footer = () => {
               <div className="inner_logo">
                 <Logo />
               </div>
-              <div className="inner_desc">You are ready? Download the app to start playing now!</div>
+              <div className="inner_desc">Вы готовы? Скачайте приложение, чтобы начать играть прямо сейчас!</div>
             </div>
           </div>
           <div className="inner_column btns">
@@ -27,11 +27,11 @@ const Footer = () => {
                 <div className="img img_apple">
                   <div className="img img_apple">
                     <a href="https://apps.apple.com/us/app/dominoes-board-game/id1492160489" target="_blank">
-                      <img src='/img/apptest.svg' alt="Dominoes" />
+                      <img src='/img/logo-app-store-long.png' alt="Dominoes" />
                     </a>
                   </div>
                   <div className="img img_google">
-                    <a href="https://play.google.com/store/apps/details?id=loppipoppi.dominoes&hl=en" target="_blank">
+                    <a href="https://play.google.com/store/apps/details?id=loppipoppi.dominoes&hl=ru" target="_blank">
                       <img src='/img/logo-gplay.png' alt="Dominoes" />
                     </a>
                   </div>
@@ -44,39 +44,39 @@ const Footer = () => {
               <ul>
                 <li>
                   <Link
-                    href="/history-of-dominoes" as={`/history-of-dominoes`}>
-                    <a target="_blank">About game</a>
+                    href="/ru/istoriya-domino" as={`/ru/istoriya-domino`}>
+                    <a target="_blank">Об игре</a>
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/dominoes-online" as={`/dominoes-online`}>
-                    <a target="_blank">Dominoes online</a>
+                    href="/ru/domino-online" as={`/ru/domino-online`}>
+                    <a target="_blank">Домино онлайн</a>
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/dominoes-rules" as={`/dominoes-rules`}>
-                    <a target="_blank">Dominoes classic</a>
+                    href="/ru/domino-klassicheskoe" as={`/ru/domino-klassicheskoe`}>
+                    <a target="_blank">Классическое домино</a>
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/all-fives-dominoes" as={`/all-fives-dominoes`}>
-                    <a target="_blank">Dominoes five</a>
+                    href="/ru/domino-5" as={`/ru/domino-5`}>
+                    <a target="_blank">Пятёрки</a>
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/blocks-dominoes" as={`/blocks-dominoes`}>
-                    <a target="_blank">Dominoes bloc</a>
+                    href="/ru/domino-bloc" as={`/ru/domino-bloc`}>
+                    <a target="_blank">Домино блок</a>
                   </Link>
                 </li>
 
                 <li>
                   <Link
-                    href="/how-to-play-dominoes" as={`/how-to-play-dominoes`}>
-                    <a target="_blank">Dominoes strategy</a>
+                    href="/ru/strategiya-v-domino" as={`/ru/strategiya-v-domino`}>
+                    <a target="_blank">Стратегия игры в домино</a>
                   </Link>
                 </li>
               </ul>

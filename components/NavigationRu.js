@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
-import LanguageMenu from "./LanguageMenu";
+import LanguageMenuRu from "./LanguageMenuRu";
 
-const Navigation = () => {
+const NavigationRu = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
@@ -11,8 +11,8 @@ const Navigation = () => {
         <ul className="nav_list">
           <li className="list_item">
             <Link
-              href="/history-of-dominoes" as={`/history-of-dominoes`}>
-              <a>About</a>
+              href="/ru/istoriya-domino" as={`/ru/istoriya-domino`}>
+              <a>Об игре</a>
             </Link>
           </li>
           <li
@@ -21,7 +21,7 @@ const Navigation = () => {
             className={openMenu ? "list_item types open" : "list_item types"}
           >
             <span className="item_title">
-              Domino types
+              Типы домино
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M16.59 8.59003L12 13.17L7.41 8.59003L6 10L12 16L18 10L16.59 8.59003Z" fill="evenodd"></path>
               </svg>
@@ -29,41 +29,41 @@ const Navigation = () => {
             <div className="item_menu">
               <div className="menu_item">
                 <Link
-                  href="/dominoes-online" as={`/dominoes-online`}>
-                  <a>Dominoes online</a>
+                  href="/ru/domino-online" as={`/ru/domino-online`}>
+                  <a>Домино онлайн</a>
                 </Link>
               </div>
               <div className="menu_item">
                 <Link
-                  href="/dominoes-rules" as={`/dominoes-rules`}>
-                  <a>Dominoes classic</a>
+                  href="/ru/domino-klassicheskoe" as={`/ru/domino-klassicheskoe`}>
+                  <a>Классическое домино</a>
                 </Link>
               </div>
               <div className="menu_item">
                 <Link
-                  href="/all-fives-dominoes" as={`/all-fives-dominoes`}>
-                  <a>Dominoes five</a>
+                  href="/ru/domino-5" as={`/ru/domino-5`}>
+                  <a>Пятёрки</a>
                 </Link>
               </div>
               <div className="menu_item">
                 <Link
-                  href="/blocks-dominoes" as={`/blocks-dominoes`}>
-                  <a>Dominoes bloc</a>
+                  href="/ru/domino-bloc" as={`/ru/blocks-dominoes`}>
+                  <a>Домино блок</a>
                 </Link>
               </div>
             </div>
           </li>
           <li className="list_item">
             <Link
-              href="/how-to-play-dominoes" as={`/how-to-play-dominoes`}>
-              <a>Strategy game</a>
+              href="/ru/strategiya-v-domino" as={`/ru/strategiya-v-domino`}>
+              <a>Стратегия игры</a>
             </Link>
           </li>
         </ul>
       </nav>
-      <LanguageMenu />
+      <LanguageMenuRu />
     </div>
   )
 }
 
-export default Navigation
+export default NavigationRu
