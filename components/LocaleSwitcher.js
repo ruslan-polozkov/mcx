@@ -3,7 +3,7 @@
 // import { locales, languageNames } from '../translations/config'
 // import { LocaleContext } from '../context/LocaleContext'
 //
-// const LocaleSwitcher: React.FC = () => {
+// const LocaleSwitcher = () => {
 //   const router = useRouter()
 //   const { locale } = React.useContext(LocaleContext)
 //
