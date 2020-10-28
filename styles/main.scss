@@ -52,7 +52,28 @@
           font-size: 1.8rem;
           line-height: 2.4rem;
 
-          .text_paragraph {
+          ul {
+            padding-left: 2.4rem;
+
+            li {
+              position: relative;
+
+              &:before {
+                content: "";
+                position: absolute;
+                border-radius: 50%;
+                display: block;
+                width: .6rem;
+                height: .6rem;
+                background-color: #4aac00;
+                left: -1.4rem;
+                top: 50%;
+                transform: translateY(-50%);
+              }
+            }
+          }
+
+          p {
             margin-bottom: 1.8rem;
 
             &:last-child {

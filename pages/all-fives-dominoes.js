@@ -24,32 +24,30 @@ const AllFiveDominoes = () => {
                 <img src="/img/all-fives-dominoes.jpeg" alt="Dominoes" />
               </div>
               <div className="content_text">
-                The Dyenesh Blocks educational game is a great way to keep your child busy, captivating him or her with really interesting and developing actions.
+                <p>The Dyenesh Blocks educational game is a great way to keep your child busy, captivating him or her with really interesting and developing actions.</p>
 
-                In addition to variations of the game of dominoes, we offer kids to play with Dyenesh Blocks online on our website.
-                This saves money, as one such set of 48 elements costs a certain amount of money.
+                <p>In addition to variations of the game of dominoes, we offer kids to play with Dyenesh Blocks online on our website.
+                This saves money, as one such set of 48 elements costs a certain amount of money.</p>
 
-                The classic set includes:
+                <p>The classic set includes:</p>
 
-                • Elements of four shapes (circle, square, triangle and rectangle).
+                <ul>
+                  <li>Elements of four shapes (circle, square, triangle and rectangle).</li>
+                  <li>Elements of three colors (red, yellow and blue).</li>
+                  <li>Elements in two sizes (small and large).</li>
+                  <li>Shapes differing in their thickness (thin and thick).</li>
+                  <li>Elements of four shapes (circle, square, triangle and rectangle).</li>
+                </ul>
 
-                • Elements of three colors (red, yellow and blue).
+                <p>Computer games with Dyenesh Blocks are interesting since there is not a single completely identical element in the kit.
+                This allows for endless variations of how they can be folded in the virtual hands of your children.</p>
 
-                • Elements in two sizes (small and large).
-
-                • Shapes differing in their thickness (thin and thick).
-
-                • Elements of four shapes (circle, square, triangle and rectangle).
-
-                Computer games with Dyenesh Blocks are interesting since there is not a single completely identical element in the kit.
-                This allows for endless variations of how they can be folded in the virtual hands of your children.
-
-                What skills does a child train by playing Dyenesh Blocks? Accelerated development in pre-school children.
+                <p>What skills does a child train by playing Dyenesh Blocks? Accelerated development in pre-school children.
                 This applies not only to thinking, building logical chains, but the development of mathematical skills,
-                a penchant for studying computer science, understanding the structure of the code of various programming languages, etc.
+                a penchant for studying computer science, understanding the structure of the code of various programming languages, etc.</p>
 
-                The main skill that is trained in the “Blocks” game is the ability to assign and analyze various properties of objects.
-                It is important not only to understand that a conventional circle is different from a square, but to be able to describe it. Subsequently,
+                <p>The main skill that is trained in the “Blocks” game is the ability to assign and analyze various properties of objects.
+                It is important not only to understand that a conventional circle is different from a square, but to be able to describe it. Subsequently,</p>
                 this skill will be useful for programmers.
               </div>
             </div>

@@ -24,7 +24,7 @@ const BlocksDominoes = () => {
                 <img src="/img/blocks-dominoes.jpg" alt="Dominoes" />
               </div>
               <div className="content_text">
-                he educational game Gyenesh Blocks is a great way to keep your child busy, captivating with really interesting and developing action. Computer games with Dienes blocks are interesting in that the kit does not include a single complete
+                The educational game Gyenesh Blocks is a great way to keep your child busy, captivating with really interesting and developing action. Computer games with Dienes blocks are interesting in that the kit does not include a single complete
               </div>
             </div>
           </div>
