@@ -17,7 +17,7 @@ const Header = () => {
 
     open ? header.classList.add("opened") : header.classList.remove("opened")
     open ? burger.classList.add("open") : burger.classList.remove("open")
-    // open ? document.documentElement.classList.add('scroll-hidden') : document.documentElement.classList.remove('scroll-hidden')
+    open ? document.documentElement.classList.add('scroll-hidden') : document.documentElement.classList.remove('scroll-hidden')
 
     if (toUp && open) {
       toUp.classList.add('dnone')
