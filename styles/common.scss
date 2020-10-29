@@ -95,13 +95,13 @@ article {
 }
 
 .wrapper {
+  margin-top: 12rem;
   overflow: hidden;
   min-height: 100vh;
   padding-bottom: 30rem;
   position: relative;
 
   &.smart-banner-hidden {
-    margin-top: 0 !important;
   }
 }
 
@@ -124,6 +124,5 @@ p {
 .second {
   .header,
   .wrapper {
-    margin-top: 0 !important;
   }
 }
