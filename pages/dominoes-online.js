@@ -11,7 +11,7 @@ const DominoesOnline = () => {
     height:"100%"
   }
   return (
-    <>
+    <div className="second">
       <Header />
       <div className="wrapper">
         <article className="main" style={bgImage}>
@@ -55,7 +55,7 @@ const DominoesOnline = () => {
       </div>
       <ToUp />
       <Footer />
-    </>
+    </div>
   )
 }
 

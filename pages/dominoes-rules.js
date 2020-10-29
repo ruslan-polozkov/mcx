@@ -11,7 +11,7 @@ const DominoRules = () => {
     height:"100%"
   }
   return (
-    <>
+    <div className="second">
       <Header />
       <div className="wrapper">
         <article className="main" style={bgImage}>
@@ -54,7 +54,7 @@ const DominoRules = () => {
       </div>
       <ToUp />
       <Footer />
-    </>
+    </div>
   )
 }
 

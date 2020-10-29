@@ -13,7 +13,7 @@ const IstoriyaDomino = () => {
     height:"100%"
   }
   return (
-    <>
+    <div className="second">
       <HeaderRu />
       <div className="wrapper">
         <article className="main" style={bgImage}>
@@ -63,7 +63,7 @@ const IstoriyaDomino = () => {
       </div>
       <ToUp />
       <FooterRu />
-    </>
+    </div>
   )
 }
 

@@ -13,7 +13,7 @@ const DominoKlassicheskoe = () => {
     height:"100%"
   }
   return (
-    <>
+    <div className="second">
       <HeaderRu />
       <div className="wrapper">
         <article className="main" style={bgImage}>
@@ -59,7 +59,7 @@ const DominoKlassicheskoe = () => {
       </div>
       <ToUp />
       <FooterRu />
-    </>
+    </div>
   )
 }
 

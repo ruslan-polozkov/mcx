@@ -11,7 +11,7 @@ const HistoryOfDominoes = () => {
     height:"100%"
   }
   return (
-    <>
+    <div className="second">
       <Header />
       <div className="wrapper">
         <article className="main" style={bgImage}>
@@ -58,7 +58,7 @@ const HistoryOfDominoes = () => {
       </div>
       <ToUp />
       <Footer />
-    </>
+    </div>
   )
 }
 

@@ -39,7 +39,7 @@ const IndexPage = () => {
     }, [])
 
     return (
-      <>
+      <div className="second">
         <Header />
         <div className="wrapper">
           <article className="hero" style={bgImage}>
@@ -187,7 +187,7 @@ const IndexPage = () => {
       </div>
           <ToUp />
         <Footer />
-      </>
+      </div>
     )
 }
 

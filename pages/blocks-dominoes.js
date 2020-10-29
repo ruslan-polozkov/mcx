@@ -11,7 +11,7 @@ const BlocksDominoes = () => {
     height:"100%"
   }
   return (
-    <>
+    <div className="second">
       <Header />
       <div className="wrapper">
         <article className="main" style={bgImage}>
@@ -53,7 +53,7 @@ const BlocksDominoes = () => {
       </div>
       <ToUp />
       <Footer />
-    </>
+    </div>
   )
 }
 

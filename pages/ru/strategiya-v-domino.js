@@ -12,7 +12,7 @@ const StrategiyaVdomino = () => {
     height:"100%"
   }
   return (
-    <>
+    <div className="second">
       <HeaderRu />
       <div className="wrapper">
         <article className="main" style={bgImage}>
@@ -68,7 +68,7 @@ const StrategiyaVdomino = () => {
       </div>
       <ToUp />
       <FooterRu />
-    </>
+    </div>
   )
 }
 
