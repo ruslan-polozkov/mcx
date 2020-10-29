@@ -13,6 +13,8 @@ export default function MyApp({ Component, pageProps }) {
             <title>Dominoes</title>
             <meta name="apple-itunes-app" content="app-id=1434957889, app-argument=dominoes.com" />
             <meta name="google-play-app" content="app-id=loppipoppi.dominoes&hl=en" />
+            <link rel="apple-touch-icon" href="/public/img/logo.png" />
+            <link rel="android-touch-icon" href="/public/img/logo.png" />
           </Head>
           <>
             <SmartBanner
