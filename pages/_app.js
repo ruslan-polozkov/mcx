@@ -5,7 +5,7 @@ import SmartBanner from 'react-smartbanner';
 // import SmartBanner from ;
 import AppBanner from 'react-smart-app-banner';
 import NextNprogress from 'nextjs-progressbar';
-
+import 'react-smartbanner/dist/main.css';
 export default function MyApp({ Component, pageProps }) {
     return (
         <>
