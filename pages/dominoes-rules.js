@@ -18,7 +18,7 @@ const DominoRules = () => {
           <div className="global-container">
             <div className="main_content">
               <div className="content_title">
-                <h2>Classic Dominoes Rules
+                <h2>Classic Domino Rules
 
                 </h2>
               </div>
@@ -26,21 +26,27 @@ const DominoRules = () => {
                 <img src="/img/dominoes-rules.jpg" alt="Dominoes" />
               </div>
               <div className="content_text">
-                <p>Domino is one of the most fascinating and ancient board games. The history of domino dates back to ancient China, where the game was called “Bone Tablets.” The Chinese version of the game also implied the absence of a field with the number zero (“soap”) on the dices, which appeared later in Europe.</p>
-
-                <p>Classic Domino game is a set of small light-colored tablets made of ivory (or simple) bone with ebony dots. It is because of this fact that, probably, the name of the game appeared, which has French roots. In France, this name was given to winter clothes of the Christian priests, which were black on the outside and white on the inside.</p>
-
-                <p>The history of the origin of the domino game takes us back to the distant twelfth century, although the exact date remains unknown. On the territory of China, they have long loved to play with various dice, which were brought into the country from the territory of India. Initially, players rolled the dice twice. The first throw was part of the left half of the domino, and the second throw was the right half.</p>
-
-                <p>There is also some mystical note in the history of the origin of the domino. In some countries, dices were used for fortune telling and various goetic rituals. In Korea and India, they are still subjects for predicting what awaits a person in the future.</p>
-
-                <p>How did the game develop in Europe and Russia?</p>
-
-                <p>The game originates in the Old World in Italy, where initially it became a hobby of monks from Italy, but later the entertainment won France over, and it reached England in the eighteenth century.</p>
-
-                <p>The history of domino in Russia is not so rich, since the game has existed only for about three hundred years on the territory of our country. But this time was enough for it to become truly national. The younger generation prefers to play dominoes online with virtual opponents, while there is nothing more pleasant for the older generation than going out into the yard with their favorite set and dropping the dice on the table with a bang.</p>
-
-                <p>This game not only develops mathematical skills, but also develops analytical qualities in a person. Therefore, it doesn’t matter where and what kind of dominoes you play. The main thing is to get genuine pleasure from the process. Moreover, you will also develop your personal qualities, which, perhaps, are a surprise for you!</p>
+                <h3>Classic Domino Rules</h3>
+                <p>The rules of playing dominoes with a computer are no different from playing live. Depending on the
+                number of players, you are dealt seven dice each if the game starts one-on-one, and five dice if the
+                game involves three or four players. The remaining stones remain in the center of the table and are
+                called the “pool.” It serves to replenish their supplies by players when they do not have enough bones
+                  to continue the game.</p>
+                  <p>The first move is given to the player with the smallest double, i.e. dices with the same numbers: “one-
+                one,” “two-two,” etc. If no one has a double, the classic domino means a move with the most
+                ‘expensive’ dice, where the sum of the numbers will be maximum. This is the “six-five” dice.
+                The players take turns adding dice to the laid out dices from those dealt to them at the beginning of the
+                game. Matching numbers is a must. If you don’t actually have any suitable bone, the participant goes to
+                the “pool” and takes the bones from there until he finds a suitable one. Or until there is only one dice
+                    left, which is an emergency supply that no one gets.</p>
+                    <p>The goal of the classic domino game with a computer without registration is to be the first to throw all
+                your dices, attaching them to the overall game. The more often you turn to the “pool” for help, the less
+                      chances of winning you have.</p>
+                      <p>The second option for ending the game is “draw.” When the opponents have dices, but none of them is
+                suitable for continuing the game, and the “pool” is already empty. Then everyone starts scoring
+                together. The player with the lowest score is considered the winner of the round and “pick it up.”
+                Usually, the game of classic dominoes lasts several rounds. By prior arrangement, the game can be
+                        played up to a set of 50, 100, 150, 200, etc. points. It depends on your free time.</p>
               </div>
             </div>
           </div>

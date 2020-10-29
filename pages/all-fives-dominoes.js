@@ -24,31 +24,27 @@ const AllFiveDominoes = () => {
                 <img src="/img/all-fives-dominoes.jpeg" alt="Dominoes" />
               </div>
               <div className="content_text">
-                <p>The Dyenesh Blocks educational game is a great way to keep your child busy, captivating him or her with really interesting and developing actions.</p>
-
-                <p>In addition to variations of the game of dominoes, we offer kids to play with Dyenesh Blocks online on our website.
-                This saves money, as one such set of 48 elements costs a certain amount of money.</p>
-
-                <p>The classic set includes:</p>
-
-                <ul>
-                  <li>Elements of four shapes (circle, square, triangle and rectangle).</li>
-                  <li>Elements of three colors (red, yellow and blue).</li>
-                  <li>Elements in two sizes (small and large).</li>
-                  <li>Shapes differing in their thickness (thin and thick).</li>
-                  <li>Elements of four shapes (circle, square, triangle and rectangle).</li>
-                </ul>
-
-                <p>Computer games with Dyenesh Blocks are interesting since there is not a single completely identical element in the kit.
-                This allows for endless variations of how they can be folded in the virtual hands of your children.</p>
-
-                <p>What skills does a child train by playing Dyenesh Blocks? Accelerated development in pre-school children.
-                This applies not only to thinking, building logical chains, but the development of mathematical skills,
-                a penchant for studying computer science, understanding the structure of the code of various programming languages, etc.</p>
-
-                <p>The main skill that is trained in the “Blocks” game is the ability to assign and analyze various properties of objects.
-                It is important not only to understand that a conventional circle is different from a square, but to be able to describe it. Subsequently,</p>
-                this skill will be useful for programmers.
+                <h3>Domino Five</h3>
+                <p>Domino 5 is one of the most exciting types of board games. Its rules are practically no different from the
+                classic version, except for one “small” nuance. The player’s task is not just to throw off all his dices,
+                attaching them to the overall game, but to put dices at the ends of the pyramid, which is 5 or multiples
+                of five in total.</p>
+                <p>You can play ‘Domino Five’ on our website. The game wins over thousands, if not millions of board game
+                lovers because of its complicated rules. It is not enough just to place the dice on the playing board. It is
+                important to calculate the sum of all points on the table, add the value of your dice to them. This
+                number must be a multiple of five. Only in this case, you will receive additional points. Otherwise, the
+                player does not receive any additional points.</p>
+                  <p>Moreover, Domino Five is interesting because you can start the game with absolutely any dice. The very
+                beginning is a little different. After mixing, each player is given one dice. He who has the lowest one will
+                make the first move. However, all players immediately hand over the received dices, a new kneading
+                takes place, they are dealt 5 stones each – and only then they can make their first move. It doesn’t have
+                to be done with a double. But the first double that appears on the game board will be a “cross,” i.e. it
+                will be possible to move from it in all four directions. The “cross” rule applies only to the first double, all
+                the rest are played according to the classical rules.</p>
+                    <p>The rules for ending a round of domino five do not differ from the classic rules. The round ends when
+                one of the players is out of the game using all his dices. The second option to finish the round is to
+                declare “draw” when the dices are held by the players, but no one will have the opportunity to continue
+                the game.</p>
               </div>
             </div>
           </div>

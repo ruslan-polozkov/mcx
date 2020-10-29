@@ -9,12 +9,8 @@ const ToUp = () => {
   };
 
   useEffect(() => {
-    const banner = document.querySelector(".banner")
-
     window.addEventListener('scroll', () => {
-      if (!banner) return;
-
-      if (banner.getBoundingClientRect().y < 0) {
+      if (window.scrollY > 240) {
         document.querySelector('.up-container').classList.add('active')
       } else {
         document.querySelector('.up-container').classList.remove('active')
