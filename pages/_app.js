@@ -27,7 +27,17 @@ export default function MyApp({ Component, pageProps }) {
             {/*    zIndex: 9999,*/}
             {/*  }}*/}
             {/*/>*/}
-            <SmartBanner title={'DOMINOES'} />
+            <SmartBanner
+              position={'bottom'}
+              storeText={
+                { ios: 'RUSLAN', android: 'POLOZKOV' }
+              }
+              url={
+                { ios: 'http://www.dominoes.com', android: 'http://www.dominoes.com' }
+              }
+              appMeta={
+              { ios: 'apple-itunes-app', android: 'google-play-app' }
+            } title={'DOMINOES'} />
             <NextNprogress
               color="#4aac00"
               startPosition="0.3"
