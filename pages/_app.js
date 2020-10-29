@@ -18,16 +18,7 @@ export default function MyApp({ Component, pageProps }) {
           </Head>
           <>
             <SmartBanner
-            //   position={'bottom'}
-            //   storeText={
-            //     { ios: 'RUSLAN', android: 'POLOZKOV' }
-            //   }
-            //   url={
-            //     { ios: 'http://www.dominoes.com', android: 'http://www.dominoes.com' }
-            //   }
-            //   appMeta={
-            //   { ios: 'apple-itunes-app', android: 'google-play-app' }
-            // }
+              position={'bottom'}
               title={'DOMINOES'} />
             <NextNprogress
               color="#4aac00"
