@@ -20,7 +20,8 @@ export default function MyApp({ Component, pageProps }) {
           <>
             <SmartBanner
               onClose={() => {
-                document.querySelector('.header').style.backgroundColor = "green"
+                document.querySelector('.header').classList.add("smart-banner-hidden");
+                document.querySelector('.wrapper').classList.add("smart-banner-hidden");
               }}
               position={'top'}
               title={'DOMINOES'} />

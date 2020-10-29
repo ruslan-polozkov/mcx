@@ -8,6 +8,10 @@
   transition: transform 480ms;
   padding: 2.4rem 0;
 
+  &.smart-banner-hidden {
+    margin-top: 0 !important;
+  }
+
   .global-container {
     .header_inner {
       display: flex;
