@@ -5,7 +5,8 @@ import SmartBanner from 'react-smartbanner';
 // import SmartBanner from ;
 import AppBanner from 'react-smart-app-banner';
 import NextNprogress from 'nextjs-progressbar';
-import 'react-smartbanner/dist/main.css';
+// import 'react-smartbanner/dist/main.css';
+import '../styles/smartBanner.css'
 export default function MyApp({ Component, pageProps }) {
     return (
         <>
@@ -19,6 +20,7 @@ export default function MyApp({ Component, pageProps }) {
           <>
             <SmartBanner
               position={'bottom'}
+              icon: '../public/img/logo.png'
               title={'DOMINOES'} />
             <NextNprogress
               color="#4aac00"
