@@ -49,13 +49,6 @@ const IndexPage = () => {
                           <div className="inner_content">
                               <h1 className="content_title">Домино - это интересный способ отдохнуть!</h1>
                               <p className="content_text">Домино — популярная настольная игра, в которой игроки выстраивают цепь костяшек, соприкасающихся половинками с одинаковым количеством очков.</p>
-                              <div className="content_star">
-                                  <img src="/img/star-full.png" alt=""/>
-                                  <img src="/img/star-full.png" alt=""/>
-                                  <img src="/img/star-full.png" alt=""/>
-                                  <img src="/img/star-full.png" alt=""/>
-                                  <img src="/img/star-empty.png" alt=""/>
-                              </div>
                               <div className="content_img">
                                   <div className="img img_apple">
                                       <a href="https://apps.apple.com/us/app/dominoes-board-game/id1492160489" target="_blank">

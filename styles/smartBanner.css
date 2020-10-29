@@ -207,3 +207,7 @@
 .smartbanner-android .smartbanner-button-text:active, .smartbanner-android .smartbanner-button-text:hover {
     background: #4aac00;
 }
+
+.smartbanner-top + .wrapper {
+    margin-top: 80px;
+}

@@ -49,13 +49,6 @@ const IndexPage = () => {
                       <div className="inner_content">
                           <h1 className="content_title">Dominoes are a fun way to relax!</h1>
                           <p className="content_text">Dominoes is a popular board game in which players line up a chain of dice that meet in halves with the same number of points.</p>
-                          <div className="content_star">
-                              <img src="/img/star-full.png" alt=""/>
-                              <img src="/img/star-full.png" alt=""/>
-                              <img src="/img/star-full.png" alt=""/>
-                              <img src="/img/star-full.png" alt=""/>
-                              <img src="/img/star-empty.png" alt=""/>
-                          </div>
                           <div className="content_img">
                               <div className="img img_apple">
                                   <a href="https://apps.apple.com/us/app/dominoes-board-game/id1492160489" target="_blank">
