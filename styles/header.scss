@@ -291,6 +291,7 @@
   }
 
   &.active {
+    margin-top: 0 !important;
     padding: 1.2rem 0;
     top: -100%;
     transform: translateY(-100%);
