@@ -14,13 +14,13 @@ export default function MyApp({ Component, pageProps }) {
             <title>Dominoes</title>
             <meta name="apple-itunes-app" content="app-id=1492160489" />
             <meta name="google-play-app" content="app-id=loppipoppi.dominoes&hl=en" />
-            <link rel="apple-touch-icon" href="/public/img/logo.png" />
-            <link rel="android-touch-icon" href="/public/img/logo.png" />
+            <link rel="shortcut icon" href="img/logo.png" />
+            <link rel="apple-touch-icon" sizes="76x76" href="img/logo.png" />
           </Head>
           <>
-            {/*<SmartBanner*/}
-            {/*  position={'bottom'}*/}
-            {/*  title={'DOMINOES'} />*/}
+            <SmartBanner
+              position={'bottom'}
+              title={'DOMINOES'} />
             <NextNprogress
               color="#4aac00"
               startPosition="0.3"
