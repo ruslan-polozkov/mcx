@@ -208,6 +208,7 @@
     background: #4aac00;
 }
 
+.smartbanner-top + .header,
 .smartbanner-top + .wrapper {
     margin-top: 80px;
 }
