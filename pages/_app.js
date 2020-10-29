@@ -19,6 +19,9 @@ export default function MyApp({ Component, pageProps }) {
           </Head>
           <>
             <SmartBanner
+              onClose={() => {
+                document.querySelector('.header').style.backgroundColor = "green"
+              }}
               position={'top'}
               title={'DOMINOES'} />
             <NextNprogress
