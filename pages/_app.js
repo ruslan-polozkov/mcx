@@ -18,9 +18,9 @@ export default function MyApp({ Component, pageProps }) {
             <link rel="android-touch-icon" href="/public/img/logo.png" />
           </Head>
           <>
-            <SmartBanner
-              position={'bottom'}
-              title={'DOMINOES'} />
+            {/*<SmartBanner*/}
+            {/*  position={'bottom'}*/}
+            {/*  title={'DOMINOES'} />*/}
             <NextNprogress
               color="#4aac00"
               startPosition="0.3"
