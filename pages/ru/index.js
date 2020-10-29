@@ -145,9 +145,9 @@ const IndexPage = () => {
                   <div className="global-container">
                       <div className="advantages_inner">
                           <div className="inner_context">
-                              <div className="context_title">
+                              <h2 className="context_title">
                                   <span>Преимущества домино</span>
-                              </div>
+                              </h2>
                               <div className="context_text">Играйте в домино бесплатно в любое время в любом месте! Улучшите свои стратегические навыки с помощью этой классической игр</div>
                               <SliderAdvantagesRu />
                           </div>

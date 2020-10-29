@@ -141,9 +141,9 @@ const IndexPage = () => {
               <div className="global-container">
                   <div className="advantages_inner">
                       <div className="inner_context">
-                          <div className="context_title">
+                          <h2 className="context_title">
                               <span>Domino benefits</span>
-                          </div>
+                          </h2>
                           <div className="context_text">Play dominoes for free anytime anywhere! Improve your strategy skills with this classic game</div>
                           <SliderAdvantages />
                       </div>
