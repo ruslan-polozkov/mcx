@@ -11,33 +11,22 @@ export default function MyApp({ Component, pageProps }) {
         <>
           <Head>
             <title>Dominoes</title>
-            <meta name="apple-itunes-app" content="app-id=1434957889, affiliate-data=myAffiliateData, app-argument=dominoes.com" />
+            <meta name="apple-itunes-app" content="app-id=1434957889, app-argument=dominoes.com" />
             <meta name="google-play-app" content="app-id=loppipoppi.dominoes&hl=en" />
           </Head>
           <>
-            {/*<SmartBanner />*/}
-            {/*<AppBanner*/}
-            {/*  appInfo={Config}*/}
-            {/*  position="top"*/}
-            {/*  onClose={() => {*/}
-            {/*    console.log('onClose called');*/}
-            {/*  }}*/}
-            {/*  hidden={false}*/}
-            {/*  style={{*/}
-            {/*    zIndex: 9999,*/}
-            {/*  }}*/}
-            {/*/>*/}
             <SmartBanner
-              position={'bottom'}
-              storeText={
-                { ios: 'RUSLAN', android: 'POLOZKOV' }
-              }
-              url={
-                { ios: 'http://www.dominoes.com', android: 'http://www.dominoes.com' }
-              }
-              appMeta={
-              { ios: 'apple-itunes-app', android: 'google-play-app' }
-            } title={'DOMINOES'} />
+            //   position={'bottom'}
+            //   storeText={
+            //     { ios: 'RUSLAN', android: 'POLOZKOV' }
+            //   }
+            //   url={
+            //     { ios: 'http://www.dominoes.com', android: 'http://www.dominoes.com' }
+            //   }
+            //   appMeta={
+            //   { ios: 'apple-itunes-app', android: 'google-play-app' }
+            // }
+              title={'DOMINOES'} />
             <NextNprogress
               color="#4aac00"
               startPosition="0.3"
