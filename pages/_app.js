@@ -20,7 +20,6 @@ export default function MyApp({ Component, pageProps }) {
           <>
             <SmartBanner
               position={'bottom'}
-              icon: '../public/img/logo.png'
               title={'DOMINOES'} />
             <NextNprogress
               color="#4aac00"
