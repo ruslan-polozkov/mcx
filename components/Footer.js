@@ -32,7 +32,7 @@ const Footer = () => {
                   </div>
                   <div className="img img_google">
                     <a href="https://play.google.com/store/apps/details?id=loppipoppi.dominoes&hl=en" target="_blank">
-                      <img src='/img/logo-gplay.png' alt="Dominoes" />
+                      <img src='/img/google-play-badge.png' alt="Dominoes" />
                     </a>
                   </div>
                 </div>
