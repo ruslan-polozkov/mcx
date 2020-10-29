@@ -27,7 +27,7 @@ const Footer = () => {
                 <div className="img img_apple">
                   <div className="img img_apple">
                     <a href="https://apps.apple.com/us/app/dominoes-board-game/id1492160489" target="_blank">
-                      <img src='/img/apptest.svg' alt="Dominoes" />
+                      <img src='/img/app-store-en.png' alt="Dominoes" />
                     </a>
                   </div>
                   <div className="img img_google">
