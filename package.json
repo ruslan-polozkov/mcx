@@ -9,10 +9,13 @@
   },
   "dependencies": {
     "next": "9.5.5",
+    "nextjs-progressbar": "^0.0.6",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-slick": "^0.27.12",
+    "react-smart-app-banner": "^0.3.1",
     "react-smartbanner": "^5.1.4",
-    "sass": "^1.27.0"
+    "sass": "^1.27.0",
+    "smart-app-banner-react": "^1.0.4"
   }
 }
