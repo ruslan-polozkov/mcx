@@ -11,6 +11,8 @@ export default function MyApp({ Component, pageProps }) {
         <>
           <Head>
             <title>Dominoes</title>
+            <meta name="apple-itunes-app" content="app-id=1434957889, affiliate-data=myAffiliateData, app-argument=dominoes.com" />
+            <meta name="google-play-app" content="app-id=loppipoppi.dominoes&hl=en" />
           </Head>
           <>
             {/*<SmartBanner />*/}
