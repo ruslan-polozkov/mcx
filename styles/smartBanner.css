@@ -1,8 +1,8 @@
 .smartbanner-show.smartbanner-margin-top {
-    margin-top: 80px;
+    /*margin-top: 80px;*/
 }
 .smartbanner-show.smartbanner-margin-bottom {
-    margin-bottom: 80px;
+    /*margin-bottom: 80px;*/
 }
 .smartbanner-show .smartbanner {
     display: block;
@@ -25,13 +25,9 @@
     position: relative;
     top: 0;
 }
-.smartbanner-bottom {
-    position: fixed;
-    bottom: 0;
-}
 .smartbanner-container {
     margin: 0 auto;
-    padding: 0 5px;
+    padding: 0 8px;
 }
 .smartbanner-close {
     display: inline-block;
