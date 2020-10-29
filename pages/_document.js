@@ -21,6 +21,16 @@ class MyDocument extends Document {
                     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
                     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"/>
                     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"/>
+
+
+                  <meta name="apple-itunes-app" content="app-id=502838820" />
+                    <meta name="google-play-app" content="app-id=ru.hh.android" />
+                      <meta name="msApplication-ID" content="microsoft.build.App" />
+                        <meta name="msApplication-PackageFamilyName" content="microsoft.build_8wekyb3d8bbwe" />
+                            <link rel="apple-touch-icon" href="/public/img/favicon.icon" />
+                              <link rel="android-touch-icon" href="/public/img/favicon.icon" />
+                                <link rel="windows-touch-icon" href="/public/img/favicon.icon" />
+                  <script src="/helpers/smart-app-banner.js"></script>
                 </Head>
                 <body>
                 <Main />
