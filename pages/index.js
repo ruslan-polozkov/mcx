@@ -128,8 +128,8 @@ const IndexPage = () => {
                           <p className="content_text">Each experienced player will have their own system of how to win at dominoes. And he will sacredly believe that this system is one of the best. However, there are a few rules or tips, following which makes your life in the game much easier, and the chances of winning increase.</p>
                           <div className="content_link">
                               <Link
-                                href="/how-to-play-dominoes" as={`/en/how-to-play-dominoes`}>
-                                  <a target="_blank">Read completely</a>
+                                href="/how-to-play-dominoes" as={`/how-to-play-dominoes`}>
+                                  <a>Read completely</a>
                               </Link>
                               <img src="/img/right-arrow.png" alt="Dominoes" />
                           </div>

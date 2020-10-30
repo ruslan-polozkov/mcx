@@ -45,38 +45,38 @@ const Footer = () => {
                 <li>
                   <Link
                     href="/ru/istoriya-domino" as={`/ru/istoriya-domino`}>
-                    <a target="_blank">Об игре</a>
+                    <a>Об игре</a>
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/ru/domino-online" as={`/ru/domino-online`}>
-                    <a target="_blank">Домино онлайн</a>
+                    <a>Домино онлайн</a>
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/ru/domino-klassicheskoe" as={`/ru/domino-klassicheskoe`}>
-                    <a target="_blank">Классическое домино</a>
+                    <a>Классическое домино</a>
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/ru/domino-5" as={`/ru/domino-5`}>
-                    <a target="_blank">Пятёрки</a>
+                    <a>Пятёрки</a>
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/ru/domino-bloc" as={`/ru/domino-bloc`}>
-                    <a target="_blank">Домино блок</a>
+                    <a>Домино блок</a>
                   </Link>
                 </li>
 
                 <li>
                   <Link
                     href="/ru/strategiya-v-domino" as={`/ru/strategiya-v-domino`}>
-                    <a target="_blank">Стратегия игры в домино</a>
+                    <a>Стратегия игры в домино</a>
                   </Link>
                 </li>
               </ul>

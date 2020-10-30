@@ -82,7 +82,7 @@ const IndexPage = () => {
                                   Эта игра не только развивает математические навыки, но и развивает аналитические качества в человеке. Поэтому не важно, где и в какой вид домино вы будете играть. Главное – это получать от процесса неподдельное удовольствие.
                               </p>
                               <div className="content_link">
-                                  <a href="/history-of-dominoes">Узнать больше о домино</a>
+                                  <a href="/ru/istoriya-domino" as={`/ru/istoriya-domino`}>Узнать больше о домино</a>
                                   <img src='/img/right-arrow.png' alt="Dominoes" />
                               </div>
                           </div>
@@ -132,8 +132,8 @@ const IndexPage = () => {
                               </p>
                               <div className="content_link">
                                   <Link
-                                    href="/how-to-play-dominoes" as={`/en/how-to-play-dominoes`}>
-                                      <a target="_blank">Читать полностью</a>
+                                    href="/ru/strategiya-v-domino" as={`/ru/strategiya-v-domino`}>
+                                      <a>Читать полностью</a>
                                   </Link>
                                   <img src="/img/right-arrow.png" alt="Dominoes" />
                               </div>

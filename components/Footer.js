@@ -45,38 +45,38 @@ const Footer = () => {
                 <li>
                   <Link
                     href="/history-of-dominoes" as={`/history-of-dominoes`}>
-                    <a target="_blank">About game</a>
+                    <a>About game</a>
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/dominoes-online" as={`/dominoes-online`}>
-                    <a target="_blank">Dominoes online</a>
+                    <a>Dominoes online</a>
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/dominoes-rules" as={`/dominoes-rules`}>
-                    <a target="_blank">Dominoes classic</a>
+                    <a>Dominoes classic</a>
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/all-fives-dominoes" as={`/all-fives-dominoes`}>
-                    <a target="_blank">Dominoes five</a>
+                    <a>Dominoes five</a>
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/blocks-dominoes" as={`/blocks-dominoes`}>
-                    <a target="_blank">Dominoes bloc</a>
+                    <a>Dominoes bloc</a>
                   </Link>
                 </li>
 
                 <li>
                   <Link
                     href="/how-to-play-dominoes" as={`/how-to-play-dominoes`}>
-                    <a target="_blank">Dominoes strategy</a>
+                    <a>Dominoes strategy</a>
                   </Link>
                 </li>
               </ul>
