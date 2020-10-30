@@ -1,11 +1,7 @@
 import "../styles/layout.scss"
-import Config from "../helpers/config";
 import Head from 'next/head'
 import SmartBanner from 'react-smartbanner';
-// import SmartBanner from ;
-import AppBanner from 'react-smart-app-banner';
 import NextNprogress from 'nextjs-progressbar';
-// import 'react-smartbanner/dist/main.css';
 import '../styles/smartBanner.css'
 export default function MyApp({ Component, pageProps }) {
     return (
