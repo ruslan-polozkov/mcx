@@ -12,7 +12,7 @@ const StrategiyaVdomino = () => {
     height:"100%"
   }
   return (
-    <div className="second">
+    <div className="second second-page">
       <HeaderRu />
       <div className="wrapper">
         <article className="main" style={bgImage}>

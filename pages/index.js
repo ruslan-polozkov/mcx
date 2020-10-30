@@ -39,7 +39,7 @@ const IndexPage = () => {
     }, [])
 
     return (
-      <div className="second">
+      <div className="second main-page">
         <Header />
         <div className="wrapper">
           <article className="hero" style={bgImage}>
@@ -108,7 +108,7 @@ const IndexPage = () => {
               </div>
           </article>
 
-          <article className="game-list">
+          <article id="gameList" className="game-list">
               <div className="global-container">
                   <div className="list_inner">
                       <SliderMy />

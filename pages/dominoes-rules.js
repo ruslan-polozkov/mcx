@@ -11,7 +11,7 @@ const DominoRules = () => {
     height:"100%"
   }
   return (
-    <div className="second">
+    <div className="second second-page">
       <Header />
       <div className="wrapper">
         <article className="main" style={bgImage}>
