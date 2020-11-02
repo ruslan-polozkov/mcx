@@ -21,7 +21,7 @@ class MyDocument extends Document {
                     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"/>
                     <script
                       async
-                      src="https://www.googletagmanager.com/gtag/js?id=[Tracking ID]"
+                      src="https://www.googletagmanager.com/gtag/js?id=G-20MH6GG69W"
                     />
                     <script
                       dangerouslySetInnerHTML={{
@@ -29,7 +29,7 @@ class MyDocument extends Document {
                           window.dataLayer = window.dataLayer || [];
                           function gtag(){dataLayer.push(arguments);}
                           gtag('js', new Date());
-                          gtag('config', '[Tracking ID]');
+                          gtag('config', 'G-20MH6GG69W');
                       `,
                       }}
                     />
