@@ -44,7 +44,7 @@ const SliderMy = () => {
             <div className="inner_title">
               Dyenesh Blocks
             </div>
-            <div className="inner_text">The educational game Gyenesh Blocks is a great way to keep your child busy, captivating with really interesting and developing action. Computer games with Dienes blocks are interesting in that the kit does not include a single complete ...</div>
+            <div className="inner_text">The educational game Dyenesh Blocks is a great way to keep your child busy, captivating with really interesting and developing action. Computer games with Dyenesh Blocks are interesting in that the kit does not include a single complete ...</div>
             <div className="inner_link">
               <Link
                 href="/blocks-dominoes" as={`/blocks-dominoes`}>
