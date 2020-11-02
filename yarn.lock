@@ -2212,7 +2212,7 @@ data-uri-to-buffer@3.0.0:
   dependencies:
     buffer-from "^1.1.1"
 
-debug@4, debug@^4.1.0:
+debug@4, debug@^4.0.0, debug@^4.1.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.2.0.tgz#7f150f93920e94c58f5574c2fd01a3110effe7f1"
   integrity sha512-IX2ncY78vDTjZMFUdmsvIRFY2Cf4FnD0wRs+nQwJU8Lu99/tPFdb0VybiiMTPe3I6rQmwsqQqRBvxU+bZ/I8sg==
@@ -3564,6 +3564,14 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
+next-ym@^2.3.5:
+  version "2.3.5"
+  resolved "https://registry.yarnpkg.com/next-ym/-/next-ym-2.3.5.tgz#329d5bf707e8bee39169fbc58b4c7127007f1cdb"
+  integrity sha512-wkZE5BqvvCbdoDE3B1qMY5M3ja/o0viBagXHiht+ujhijzr8JEoxenE7Snpd/nFcj8Jd2FH0T2Hs2P5pmycfEg==
+  dependencies:
+    debug "^4.0.0"
+    react-ym "^0.0.7"
+
 next@9.5.5:
   version "9.5.5"
   resolved "https://registry.yarnpkg.com/next/-/next-9.5.5.tgz#37a37095e7c877ed6c94ba82e34ab9ed02b4eb33"
@@ -4174,6 +4182,11 @@ react-smartbanner@^5.1.4:
     cookies-js "^1.2.1"
     prop-types "^15.5.8"
     ua-parser-js "^0.7.9"
+
+react-ym@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/react-ym/-/react-ym-0.0.7.tgz#496c9ea5f6644b40bc264b38d72d6501a9687e93"
+  integrity sha1-SWyepfZkS0C8Jks41y1lAalofpM=
 
 react@17.0.1:
   version "17.0.1"

@@ -1,9 +1,11 @@
 import "../styles/layout.scss"
 import Head from 'next/head'
 import SmartBanner from 'react-smartbanner';
+import Router from "next/router";
+import withYM from "next-ym";
 import NextNprogress from 'nextjs-progressbar';
 import '../styles/smartBanner.css'
-export default function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }) => {
     return (
         <>
           <Head>
@@ -33,3 +35,5 @@ export default function MyApp({ Component, pageProps }) {
         </>
     )
 }
+
+export default withYM("68957212", Router)(MyApp);
