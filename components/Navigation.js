@@ -40,7 +40,7 @@ const Navigation = () => {
           <li className="list_item">
             <Link
               href="/history-of-dominoes" as={`/history-of-dominoes`}>
-              <a>About</a>
+              <a>The History of Domino</a>
             </Link>
           </li>
           <li

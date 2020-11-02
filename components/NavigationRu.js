@@ -40,7 +40,7 @@ const NavigationRu = () => {
           <li className="list_item">
             <Link
               href="/ru/istoriya-domino" as={`/ru/istoriya-domino`}>
-              <a>Об игре</a>
+              <a>История игры домино</a>
             </Link>
           </li>
           <li
