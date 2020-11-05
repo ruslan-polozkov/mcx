@@ -12,6 +12,7 @@ const MyApp = ({ Component, pageProps }) => {
             <title>Dominoes</title>
             <meta name="apple-itunes-app" content="app-id=1492160489" />
             <meta name="google-play-app" content="app-id=loppipoppi.dominoes&hl=en" />
+            <meta name="yandex-verification" content="4b1365b529b7cdb5" />
             <meta property="og:image" content="img/phone-domino.png" />
             <link rel="shortcut icon" href="img/logo.png" />
             <link rel="apple-touch-icon" sizes="76x76" href="img/logo.png" />
